@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: rgb(255, 255, 255); /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left top, rgb(227, 115, 115), rgb(203, 159, 101)); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* Standard syntax */
+   background: linear-gradient(to bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* Standard syntax */
+   background: linear-gradient(to bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* Standard syntax */
+   background: linear-gradient(to bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* Standard syntax */
+   background: -moz-linear-gradient(bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* For Firefox 3.6 to 15 */
+   background: -o-linear-gradient(bottom right,  rgb(227, 115, 115), rgb(203, 159, 101)); /* For Opera 11.1 to 12.0 */
+   background: -webkit-linear-gradient(left top, rgb(227, 115, 115), rgb(203, 159, 101)); /* For Safari 5.1 to 6.0 */
+  
+   
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.content{
+  position: absolute;
+  top: 30%;
+  right: 8%;
+}
+.page .content{
+  top: 55%;
+  left: 7%;
+}
+
+.page1 .content{
+  top: -114vh;
+  left: 7%;
+}
+
+.content .inputbox{
+  top: -150px;
+}
+/*กลับมาแก้*/
+.content-w{
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  transform: translateY(-50%);
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.inputbox{
+  display: flex;
+  position: relative;
+  top: 90%;
+  height: 100%;
+  
+}
+
+
+.content h1{
+  color: aliceblue;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+  font-family: 'Itmes New Roman';
+  font-size: 50px;
+  text-shadow: 4px 0.2px 3px rgb(0, 0, 0, 50);
+}
+
+.content h4{
+  top: 20px;
+  color: rgb(138, 8, 8);
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: relative;
+  right: 38%;
+  text-shadow: 2px 0.1px 3px rgb(255, 255, 255)
+}
+
+.about{
+  background-color: #191919;
+  width: 30%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../background1.jpg);
+}
+
+.about img{
+  height: auto;
+  width: 430px;
+}
+
+.main{
+  width: 1130;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.contact{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+
+}
+
+.title h2{
+  color: white;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+.page {
+  background: white;
+  width: 100%;
+}
+
+
+.page1{
+  width: 100%;
+  position: absolute;
+  top: 135%;
+}
+
+.content h2{
+  color: rgb(255, 255, 255);
+  top: -50px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 360px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+/*
+.content h1{
+  font-family: 'Itmes New Roman';
+  font-size: 50px;
+  padding-right: 0px;
+  margin-top: 15%;
+  letter-spacing: 2px;
+  color: rgb(59, 7, 7);
+  text-shadow: 20px 20px 50px rgb(0, 0, 0, 50);
+  z-index: 1;
+}
+*/
+
+
+.col{
+  position: relative;
+  display: flex;
+}
+
+
+.Boxpage{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../backgroud.jpg);
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0;
+}
+.ant-card ant-card-bordered {
+  color: #ffffff00;
+}
+/*
+.bubbles{
+  position: relative;
+  display: flex;
+}
+.bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: aqua;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+}
+@keyframes animate {
+  0%
+  {
+    transform: translate(100vh);
+  }
+  
+}
+.PAGE{
+  margin-top: 30px;
+  align-content: center;
+  
+}
+
+.page{
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  justify-items: center;
+  overflow: hidden;
+  align-items: center;
+  margin: 10px;
+  z-index: 1;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+
+}
+
+.container{
+  width: 200vh;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.box{
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(2rem);
+  position: relative;
+  width: 3000px;
+  height: 460px;
+  margin: 10px;
+  margin-top: 40px;
+  box-shadow: 10px 20px 20px rgb(0, 0, 0, 2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.small-box{
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(2rem);
+  position: relative;
+  width: 400px;
+  height: 440px;
+  margin: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.Box{
+  width: 300px;
+  height: 51.5px;
+  margin: 10px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(250, 170, 144, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0.3px 0.2px 0.3px rgb(0, 1, 0.5, 1);
+}
+*/
+
+.App-logo1{
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  height: 20rem;
+  
+  width: 20rem;
+  position: absolute;
+  top: 40px;
+  right: 65%;
+  border-radius: 50%;
+  backdrop-filter: blur(2rem);
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
